@@ -1,0 +1,202 @@
+/* Variabel Warna */
+:root {
+  --primary-color: #0d47a1;       /* Biru tua */
+  --secondary-color: #6a1b9a;     /* Ungu */
+  --accent-green: #00e676;        /* Neon hijau */
+  --accent-orange: #ff9100;       /* Neon oranye */
+  --background-color: #121212;    /* Latar belakang gelap */
+  --card-background: #1e1e1e;     /* Card background */
+  --text-color: #e0e0e0;
+  --font-family: 'Roboto', 'Poppins', 'Open Sans', sans-serif;
+}
+
+/* Reset dasar */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: var(--background-color);
+  color: var(--text-color);
+  font-family: var(--font-family);
+  line-height: 1.6;
+}
+
+/* Header dan Navigasi */
+header {
+  background-color: var(--primary-color);
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.3);
+}
+
+.header-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 1rem;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+}
+
+header h1 {
+  font-size: 1.8rem;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 1rem;
+}
+
+nav ul li a {
+  color: #fff;
+  text-decoration: none;
+  padding: 0.5rem 1rem;
+  border-radius: 4px;
+  transition: background-color 0.3s;
+}
+
+nav ul li a:hover {
+  background-color: var(--accent-green);
+}
+
+/* Search Bar */
+.search-bar {
+  display: flex;
+  align-items: center;
+}
+
+.search-bar input {
+  padding: 0.5rem;
+  border: none;
+  border-radius: 4px 0 0 4px;
+  outline: none;
+}
+
+.search-bar button {
+  padding: 0.5rem;
+  border: none;
+  background-color: var(--accent-orange);
+  border-radius: 0 4px 4px 0;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  color: #fff;
+}
+
+.search-bar button:hover {
+  background-color: var(--accent-green);
+}
+
+/* Konten Utama */
+.content-section {
+  max-width: 1200px;
+  margin: 2rem auto;
+  padding: 1rem;
+}
+
+.content-section h2 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+  border-bottom: 2px solid var(--accent-green);
+  display: inline-block;
+  padding-bottom: 0.5rem;
+}
+
+.content-section h3 {
+  font-size: 1.6rem;
+  margin-top: 1.5rem;
+}
+
+.content-section p,
+.content-section ul,
+.content-section pre {
+  margin-bottom: 1rem;
+}
+
+/* Card Style untuk materi (bila diperlukan) */
+.card {
+  background-color: var(--card-background);
+  padding: 1rem;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.4);
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 4px 8px rgba(0,0,0,0.6);
+}
+
+/* Kode dan Preformatted Text */
+pre {
+  background-color: #2d2d2d;
+  padding: 1rem;
+  border-radius: 4px;
+  overflow-x: auto;
+}
+
+code {
+  font-family: 'Courier New', monospace;
+  color: #c5c8c6;
+}
+
+/* Footer */
+footer {
+  background-color: var(--secondary-color);
+  padding: 1.5rem 1rem;
+  text-align: center;
+}
+
+.footer-container p {
+  margin-bottom: 0.5rem;
+}
+
+.social-media a {
+  margin: 0 0.5rem;
+  color: #fff;
+  font-size: 1.2rem;
+  transition: color 0.3s;
+}
+
+.social-media a:hover {
+  color: var(--accent-green);
+}
+
+/* Animasi Halus */
+.fade-in {
+  opacity: 0;
+  animation: fadeIn 1s forwards;
+}
+
+@keyframes fadeIn {
+  to {
+    opacity: 1;
+  }
+}
+
+/* Responsivitas */
+@media (max-width: 768px) {
+  .header-container {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  
+  nav ul {
+    flex-direction: column;
+    width: 100%;
+  }
+  
+  .search-bar {
+    margin-top: 0.5rem;
+    width: 100%;
+  }
+  
+  .search-bar input {
+    width: 80%;
+  }
+}
