@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Learn IT, Cyber & Coding in One Place!</title>
+  <!-- Link ke file CSS eksternal -->
+  <link rel="stylesheet" href="style.css">
+  <!-- Menggunakan Google Fonts untuk typography elegan -->
+  <link href="https://fonts.googleapis.com/css?family=Roboto:400,500,700|Poppins:400,500,700|Open+Sans:400,600" rel="stylesheet">
+  <!-- Jika ingin menggunakan ikon, misalnya Font Awesome (opsional) -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" integrity="sha512-Fo3rlrZj/k7ujTnHg4C+6Xg7M7E7uR1RX5E8xwB5Y4lxPFXquQXIF0x0fB/2GHLx2yfW5DQ7dQ4v0h6yCXjKmw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+  <!-- Header dengan sticky navigation dan search bar -->
+  <header>
+    <div class="header-container">
+      <h1>Learn IT, Cyber & Coding in One Place!</h1>
+      <nav>
+        <ul>
+          <li><a href="#coding">Coding</a></li>
+          <li><a href="#cyber">Cyber</a></li>
+          <li><a href="#it">IT</a></li>
+        </ul>
+      </nav>
+      <div class="search-bar">
+        <input type="text" placeholder="Cari materi...">
+        <button><i class="fas fa-search"></i></button>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <section id="home" class="content-section">
+      <h2>Selamat Datang!</h2>
+      <p>Selamat datang di website edukasi yang akan membantumu mendalami dunia IT, Cyber Security, dan Coding dengan cara yang terstruktur dan menyenangkan. Di sini, kamu akan menemukan materi pembelajaran lengkap yang dimulai dari dasar hingga tingkat mahir, dilengkapi dengan contoh kode, latihan, dan panduan praktis.</p>
+      <p>Kami percaya bahwa belajar teknologi tidak harus membosankan. Kami berusaha menghadirkan materi dengan bahasa yang mudah dipahami, contoh kode yang interaktif, dan desain website yang modern dan responsif untuk pengalaman belajar yang optimal.</p>
+      <p>Siap memulai petualanganmu di dunia IT, Cyber Security, dan Coding? Mari kita mulai!</p>
+    </section>
+
+    <section id="coding" class="content-section">
+      <h2>Coding</h2>
+      <p>Di bagian ini, kamu akan menjelajahi dunia pemrograman dengan berbagai materi coding yang diambil dari <a href="https://www.domainesia.com/berita/belajar-coding-untuk-pemula/" target="_blank">Domainesia - Belajar Coding untuk Pemula</a>. Materi ini dirancang untuk membantumu memahami dasar-dasar coding dan mengembangkan kemampuan untuk membangun website dan aplikasi interaktif.</p>
+
+      <h3>HTML Dasar</h3>
+      <p>HTML (HyperText Markup Language) adalah bahasa yang digunakan untuk membangun struktur dasar sebuah halaman web. Dalam materi ini, kamu akan mempelajari tentang:</p>
+      <ul>
+        <li>Tag HTML: Memahami berbagai tag HTML seperti <code>&lt;html&gt;</code>, <code>&lt;head&gt;</code>, <code>&lt;body&gt;</code>, <code>&lt;p&gt;</code>, <code>&lt;h1&gt;</code>, <code>&lt;h2&gt;</code>, dll.</li>
+        <li>Atribut HTML: Memahami berbagai atribut yang digunakan untuk menambahkan informasi dan properti ke tag HTML, seperti <code>id</code>, <code>class</code>, <code>href</code>, <code>src</code>, dll.</li>
+        <li>Membuat Elemen HTML: Mempelajari cara membuat berbagai elemen HTML seperti paragraf, judul, gambar, tautan, tabel, daftar, dll.</li>
+        <li>Struktur Halaman Web: Memahami struktur dasar sebuah halaman web dan cara mengatur konten dengan tag HTML yang tepat.</li>
+      </ul>
+
+      <p><strong>Contoh Kode HTML:</strong></p>
+      <pre><code>&lt;!DOCTYPE html&gt;
+&lt;html lang="id"&gt;
+&lt;head&gt;
+    &lt;meta charset="UTF-8"&gt;
+    &lt;title&gt;Contoh Halaman Web&lt;/title&gt;
+&lt;/head&gt;
+&lt;body&gt;
+    &lt;h1&gt;Selamat Datang!&lt;/h1&gt;
+    &lt;p&gt;Ini adalah contoh paragraf.&lt;/p&gt;
+    &lt;img src="gambar.jpg" alt="Gambar Contoh"&gt;
+    &lt;a href="https://www.domainesia.com/" target="_blank"&gt;Kunjungi Domainesia&lt;/a&gt;
+&lt;/body&gt;
+&lt;/html&gt;</code></pre>
+
+      <h3>CSS</h3>
+      <p>CSS (Cascading Style Sheets) digunakan untuk mengatur tampilan dan gaya sebuah halaman web. Di sini, kamu akan mempelajari:</p>
+      <ul>
+        <li>Selector: Memahami berbagai selector CSS untuk memilih elemen HTML yang ingin diatur gayanya, seperti selector ID, class, tag, dan attribute selector.</li>
+        <li>Properties dan Values: Memahami berbagai properti CSS dan nilai-nilai yang dapat digunakan untuk mengatur warna, font, ukuran, margin, padding, background, dan banyak lagi.</li>
+        <li>Layout CSS: Memahami cara mengatur tata letak halaman web menggunakan CSS, seperti Flexbox dan Grid.</li>
+        <li>Membuat Stylesheet: Memahami cara membuat dan menghubungkan file CSS ke halaman web.</li>
+      </ul>
+
+      <p><strong>Contoh Kode CSS:</strong></p>
+      <pre><code>body {
+    background-color: #f0f0f0;
+    font-family: Arial, sans-serif;
+}
+
+h1 {
+    color: #333;
+    text-align: center;
+}
+
+p {
+    line-height: 1.5;
+    margin-bottom: 1em;
+}
+
+img {
+    display: block;
+    margin: 0 auto;
+    width: 50%;
+}
+
+a {
+    color: blue;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}</code></pre>
+
+      <h3>JavaScript</h3>
+      <p>JavaScript adalah bahasa pemrograman yang digunakan untuk menambahkan interaktivitas ke halaman web. Di sini, kamu akan belajar tentang:</p>
+      <ul>
+        <li>Variabel dan Tipe Data: Memahami cara mendeklarasikan variabel dan berbagai tipe data dalam JavaScript, seperti string, number, boolean, array, dan object.</li>
+        <li>Operator dan Ekspresi: Memahami berbagai operator dan ekspresi dalam JavaScript untuk melakukan operasi matematika, perbandingan, dan logika.</li>
+        <li>Percabangan (Conditional Statements): Memahami cara menggunakan pernyataan percabangan seperti <code>if</code>, <code>else</code>, dan <code>else if</code> untuk membuat keputusan dalam kode.</li>
+        <li>Perulangan (Loops): Memahami cara menggunakan perulangan seperti <code>for</code>, <code>while</code>, dan <code>do...while</code> untuk mengulangi kode.</li>
+        <li>Fungsi (Functions): Memahami cara mendefinisikan dan menggunakan fungsi untuk mengelompokkan kode dan meningkatkan reusability.</li>
+        <li>DOM Manipulation: Mempelajari cara memanipulasi elemen HTML dari JavaScript untuk mengubah tampilan dan perilaku halaman web.</li>
+      </ul>
+
+      <p><strong>Contoh Kode JavaScript:</strong></p>
+      <pre><code>// Menampilkan pesan "Halo Dunia!" di console
+console.log("Halo Dunia!");
+
+// Menampilkan alert box dengan pesan "Selamat Datang!"
+alert("Selamat Datang!");
+
+// Mengubah warna background halaman menjadi merah
+document.body.style.backgroundColor = "red";
+
+// Mengubah teks di elemen h1 menjadi "Judul Baru"
+document.querySelector("h1").textContent = "Judul Baru";</code></pre>
+
+      <h3>Python</h3>
+      <p>Python adalah bahasa pemrograman yang populer dan serbaguna yang sangat mudah dipelajari, terutama bagi pemula. Di sini, kamu akan belajar tentang:</p>
+      <ul>
+        <li>Dasar-Dasar Python: Mempelajari cara mendeklarasikan variabel, menggunakan tipe data, dan menulis pernyataan.</li>
+        <li>Struktur Data: Memahami berbagai struktur data dalam Python, seperti list, tuple, dictionary, dan set.</li>
+        <li>Percabangan (Conditional Statements): Memahami cara menggunakan pernyataan percabangan seperti <code>if</code>, <code>else</code>, dan <code>elif</code> untuk membuat keputusan dalam kode.</li>
+        <li>Perulangan (Loops): Memahami cara menggunakan perulangan seperti <code>for</code> dan <code>while</code> untuk mengulangi kode.</li>
+        <li>Fungsi (Functions): Memahami cara mendefinisikan dan menggunakan fungsi untuk mengelompokkan kode dan meningkatkan reusability.</li>
+        <li>Modul dan Packages: Memahami cara menggunakan modul dan packages dalam Python untuk mengakses fungsi dan kelas yang sudah ada.</li>
+      </ul>
+
+      <p><strong>Contoh Kode Python:</strong></p>
+      <pre><code># Mencetak teks "Halo Dunia!" ke console
+print("Halo Dunia!")
+
+# Mendefinisikan variabel dan mencetak nilainya
+nama = "John Doe"
+umur = 30
+print(f"Nama: {nama}, Umur: {umur}")
+
+# Menjalankan perulangan for untuk mencetak angka dari 1 hingga 5
+for i in range(1, 6):
+    print(i)
+
+# Mendefinisikan fungsi untuk menjumlahkan dua angka
+def jumlahkan(a, b):
+    return a + b
+
+# Memanggil fungsi dan mencetak hasilnya
+hasil = jumlahkan(5, 3)
+print(f"Hasil penjumlahan: {hasil}")</code></pre>
+
+      <h3>Frameworks Populer</h3>
+      <p>Framework adalah kumpulan kode dan alat yang dapat membantu kamu membangun aplikasi dengan lebih cepat dan efisien. Di sini, kamu akan mendapatkan pengantar singkat tentang frameworks populer seperti:</p>
+      <ul>
+        <li>React: Framework JavaScript yang digunakan untuk membangun user interface (UI) yang interaktif dan dinamis untuk website dan aplikasi mobile.</li>
+        <li>Flask: Framework Python yang digunakan untuk membangun aplikasi web yang sederhana dan ringan.</li>
+      </ul>
+    </section>
+
+    <section id="cyber" class="content-section">
+      <h2>Cyber</h2>
+      <p>Di bagian ini, kamu akan menjelajahi dunia keamanan siber dengan berbagai materi yang diambil dari <a href="https://digitalskola.com/blog/others/belajar-cyber-security-untuk-pemula" target="_blank">Digital Skola - Belajar Cyber Security untuk Pemula</a>. Materi ini dirancang untuk membantumu memahami konsep dasar keamanan siber, ancaman umum, dan cara melindungi diri dari serangan cyber.</p>
+
+      <h3>Pengantar Cyber Security</h3>
+      <p>Cyber security adalah praktik melindungi sistem komputer, jaringan, dan data dari akses yang tidak sah, penggunaan, pengungkapan, gangguan, modifikasi, atau penghancuran. Di sini, kamu akan mempelajari tentang:</p>
+      <ul>
+        <li>Konsep Dasar Cyber Security: Memahami konsep dasar seperti Confidentiality, Integrity, and Availability (CIA Triad), serta berbagai model dan framework keamanan siber.</li>
+        <li>Ancaman Cyber: Mempelajari berbagai jenis ancaman cyber seperti malware, phishing, ransomware, DDoS, dan social engineering.</li>
+        <li>Perlindungan Cyber: Mempelajari berbagai cara untuk melindungi diri dari serangan cyber, seperti menggunakan password yang kuat, mengenali phishing, menginstal software antivirus, dan melakukan backup data secara teratur.</li>
+        <li>Etika dan Hukum Cyber Security: Memahami aspek etika dan hukum dalam dunia keamanan siber, seperti penggunaan informasi yang bertanggung jawab dan menghindari pelanggaran privasi.</li>
+      </ul>
+
+      <h3>Ethical Hacking</h3>
+      <p>Ethical hacking adalah praktik menggunakan teknik hacking untuk mengidentifikasi dan memperbaiki kelemahan keamanan dalam sistem komputer dan jaringan. Di sini, kamu akan belajar tentang:</p>
+      <ul>
+        <li>Metode Ethical Hacking: Mempelajari berbagai teknik ethical hacking, seperti footprinting, scanning, enumeration, vulnerability assessment, exploitation, and reporting.</li>
+        <li>Tools Ethical Hacking: Mempelajari berbagai tools ethical hacking, seperti Kali Linux, Metasploit, Nmap, Wireshark, Burp Suite, dan OWASP ZAP.</li>
+        <li>Standar Ethical Hacking: Memahami standar dan etika ethical hacking, seperti izin, dokumentasi, dan reporting.</li>
+      </ul>
+
+      <h3>Tools Penting</h3>
+      <p>Di sini, kamu akan mempelajari cara menggunakan berbagai tools yang penting dalam dunia keamanan siber, seperti:</p>
+      <ul>
+        <li>Kali Linux: Sistem operasi berbasis Linux yang dirancang khusus untuk ethical hacking dan pengujian penetrasi.</li>
+        <li>Metasploit: Framework yang menyediakan berbagai exploit dan tools untuk pengujian penetrasi dan analisis keamanan.</li>
+        <li>Wireshark: Program analisis paket jaringan yang digunakan untuk melihat lalu lintas jaringan dan mengidentifikasi potensi ancaman.</li>
+      </ul>
+
+      <h3>Jaringan (Networking)</h3>
+      <p>Jaringan komputer adalah sistem yang menghubungkan berbagai perangkat seperti komputer, server, printer, dan perangkat lainnya. Di sini, kamu akan mempelajari tentang:</p>
+      <ul>
+        <li>Konsep Dasar Jaringan: Memahami konsep dasar jaringan, seperti topologi jaringan, protokol jaringan, dan alamat IP.</li>
+        <li>Jenis-Jenis Jaringan: Mempelajari berbagai jenis jaringan, seperti LAN, WAN, dan MAN.</li>
+        <li>Perangkat Jaringan: Memahami berbagai perangkat jaringan, seperti router, switch, dan modem.</li>
+        <li>Keamanan Jaringan: Memahami aspek keamanan jaringan, seperti firewall, VPN, dan IDS/IPS.</li>
+      </ul>
+
+      <h3>Simulasi/Latihan</h3>
+      <p>Untuk mempraktikkan ilmu yang telah dipelajari, kamu dapat mengikuti simulasi atau latihan seperti Capture The Flag (CTF). Di sini, kamu akan menghadapi berbagai tantangan keamanan siber yang akan mengasah kemampuanmu untuk menemukan kelemahan keamanan dan menyelesaikan masalah.</p>
+    </section>
+
+    <section id="it" class="content-section">
+      <h2>IT</h2>
+      <p>Di bagian ini, kamu akan menjelajahi berbagai aspek dunia IT yang diambil dari <a href="https://id.quora.com/Saya-ingin-belajar-IT-namun-saya-tidak-ada-basic-IT-sama-sekali-bagaimana-saya-memulai" target="_blank">Quora - Belajar IT Tanpa Basic IT</a>. Materi ini dirancang untuk membantumu memahami dasar-dasar IT, seperti hardware, software, cloud computing, dan teknologi masa depan.</p>
+
+      <h3>Hardware & Software</h3>
+      <p>Hardware adalah komponen fisik komputer, seperti CPU, RAM, hard disk, motherboard, dan periferal. Software adalah program komputer yang memberikan instruksi kepada hardware untuk melakukan tugas tertentu. Di sini, kamu akan mempelajari tentang:</p>
+      <ul>
+        <li>Komponen Dasar Komputer: Memahami berbagai komponen dasar komputer dan fungsinya, seperti CPU, RAM, hard disk, motherboard, dan periferal.</li>
+        <li>Sistem Operasi: Memahami berbagai sistem operasi, seperti Windows, macOS, dan Linux, dan fungsinya dalam mengelola hardware dan software.</li>
+        <li>Jenis-Jenis Software: Mempelajari berbagai jenis software, seperti aplikasi, sistem operasi, utilitas, dan game.</li>
+        <li>Perangkat Lunak dan Perangkat Keras: Memahami hubungan dan interaksi antara hardware dan software dalam menjalankan komputer.</li>
+      </ul>
+
+      <h3>Cloud Computing</h3>
+      <p>Cloud computing adalah model komputasi yang memungkinkan akses ke sumber daya komputasi seperti server, penyimpanan data, dan perangkat lunak melalui jaringan, biasanya internet. Di sini, kamu akan mempelajari tentang:</p>
+      <ul>
+        <li>Konsep Dasar Cloud Computing: Memahami konsep dasar cloud computing, seperti layanan IaaS, PaaS, dan SaaS.</li>
+        <li>Provider Cloud Computing: Mempelajari berbagai provider cloud computing, seperti AWS (Amazon Web Services), Azure (Microsoft Azure), dan Google Cloud Platform.</li>
+        <li>Keuntungan dan Kerugian Cloud Computing: Memahami keuntungan dan kerugian menggunakan cloud computing, seperti fleksibilitas, skalabilitas, dan keamanan.</li>
+        <li>Contoh Penerapan Cloud Computing: Mempelajari contoh penerapan cloud computing dalam berbagai industri, seperti e-commerce, healthcare, dan finance.</li>
+      </ul>
+
+      <h3>Teknologi Masa Depan</h3>
+      <p>Di sini, kamu akan mempelajari tentang berbagai teknologi masa depan yang berpotensi mengubah dunia IT, seperti:</p>
+      <ul>
+        <li>Internet of Things (IoT): Mempelajari tentang konsep IoT, bagaimana perangkat terhubung ke internet, dan berbagai aplikasi IoT.</li>
+        <li>Artificial Intelligence (AI): Mempelajari tentang AI, bagaimana AI bekerja, dan berbagai aplikasi AI, seperti machine learning dan deep learning.</li>
+        <li>Blockchain: Mempelajari tentang blockchain, bagaimana blockchain bekerja, dan berbagai aplikasi blockchain, seperti cryptocurrency dan smart contracts.</li>
+        <li>Virtual Reality (VR) dan Augmented Reality (AR): Mempelajari tentang VR dan AR, bagaimana VR dan AR bekerja, dan berbagai aplikasi VR dan AR, seperti game, edukasi, dan kesehatan.</li>
+      </ul>
+
+      <h3>Database Management</h3>
+      <p>Database adalah kumpulan informasi terstruktur yang disimpan dan diakses oleh komputer. Di sini, kamu akan mempelajari tentang:</p>
+      <ul>
+        <li>Konsep Dasar Database: Memahami konsep dasar database, seperti tabel, kolom, baris, dan kunci.</li>
+        <li>Jenis-Jenis Database: Mempelajari berbagai jenis database, seperti relational database (SQL) dan non-relational database (NoSQL).</li>
+        <li>SQL (Structured Query Language): Mempelajari cara menggunakan SQL untuk mengakses, memanipulasi, dan mengelola data dalam database relational.</li>
+        <li>NoSQL: Mempelajari tentang database NoSQL, kelebihan dan kekurangan NoSQL, dan beberapa jenis database NoSQL yang populer.</li>
+      </ul>
+
+      <p><strong>Contoh Kode SQL:</strong></p>
+      <pre><code>-- Menampilkan semua data dari tabel "pelanggan"
+SELECT * FROM pelanggan;
+
+-- Menampilkan nama dan alamat pelanggan dengan ID 1
+SELECT nama, alamat FROM pelanggan WHERE id = 1;
+
+-- Menambahkan data baru ke tabel "pelanggan"
+INSERT INTO pelanggan (nama, alamat) VALUES ("John Doe", "Jl. Sudirman No. 1");
+
+-- Mengubah alamat pelanggan dengan ID 2 menjadi "Jl. Gatot Subroto No. 5"
+UPDATE pelanggan SET alamat = "Jl. Gatot Subroto No. 5" WHERE id = 2;
+
+-- Menghapus data pelanggan dengan ID 3 dari tabel "pelanggan"
+DELETE FROM pelanggan WHERE id = 3;</code></pre>
+
+      <h3>DevOps</h3>
+      <p>DevOps adalah kombinasi praktik, alat, dan budaya yang bertujuan untuk mempercepat proses pengembangan dan pengiriman perangkat lunak. Di sini, kamu akan mempelajari tentang:</p>
+      <ul>
+        <li>Konsep Dasar DevOps: Memahami konsep dasar DevOps, seperti CI/CD, automation, and collaboration.</li>
+        <li>Alat DevOps: Mempelajari berbagai alat DevOps, seperti Docker, Kubernetes, Jenkins, Ansible, and Terraform.</li>
+        <li>Praktik DevOps: Mempelajari berbagai praktik DevOps, seperti continuous integration (CI), continuous delivery (CD), and infrastructure as code (IaC).</li>
+        <li>Keuntungan DevOps: Memahami keuntungan menggunakan DevOps, seperti peningkatan kecepatan pengiriman, kualitas perangkat lunak yang lebih tinggi, dan kolaborasi yang lebih baik.</li>
+      </ul>
+    </section>
+  </main>
+
+  <!-- Footer Informatif dengan ikon media sosial -->
+  <footer>
+    <div class="footer-container">
+      <p>Dibuat oleh: Gede Arta (Montu)</p>
+      <p>Nomor WhatsApp: (+62) 878-3651-8013</p>
+      <p>Email: wayane383@gmail.com</p>
+      <p>Disclaimer: Materi yang disajikan di website ini ditujukan untuk keperluan edukasi dan belajar.</p>
+      <div class="social-media">
+        <a href="#"><i class="fab fa-facebook-f"></i></a>
+        <a href="#"><i class="fab fa-twitter"></i></a>
+        <a href="#"><i class="fab fa-linkedin-in"></i></a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
